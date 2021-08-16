@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="js" style="visibility: visible;">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>الواحة للمعارض -- Waha Expo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style type="text/css">
+
+
+
+.el-content{
+  display: none;
+}
+
+.v0 :hover .el-content{ 
+  display:  block;
+  margin-top: 50px;
+  font-size: 22px;
+  color: black;
+  font-weight: bolder;
+background-color: #e5bf37;
+height:270px;
+padding: 10px;
+margin-top: -45px;
+padding-top: 60px;
+}
+
+.v0 :hover .el-content p{
+  display:  block;
+  margin-top: 20px;
+}
+.v0 :hover #hideimg{
+  display:  none;
+}
+.v0 :hover .el-content a{ 
+  display:  block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+}
+.el-image {
+  z-index: 0;
+
+}
+nav a{
+  text-decoration: none;
+  text-align: left;
+  list-style: none;
+}
+.n li{
+  list-style: none;
+}
+</style>
+</head>
+
+<body>
+
+  <header class="mx-md-0 mr-0 flex-md-nowrap sticky-top">
+    <!-- As a link -->
+<nav class="n navbar navbar-light bg-dark text-warning">
+  <ul>
+    <li class="text-left"><a class="text-warning text-left" href="#">English</a></li>
+  </ul> 
+</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-4">
+  <div class="d-inline my-2 my-lg-0">
+      <img src="./img/wahalogo.png" width="180px;">
+      
+    </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active text-warning">
+        <a class="nav-link text-warning font-weight-bold" href="#">الرئيسية <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item px-3 border-right">
+        <a class="nav-link text-dark font-weight-bold" href="#">عن الواحة</a>
+      </li>
+      <li class="nav-item dropdown px-3 border-right">
+        <a class="nav-link dropdown-toggl text-dark font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          خدماتنا
+        </a>
+        <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>تنظيم المعارض والمؤتمرات</a>
+          <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>تصميم وتنفيذ الديكور</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>الخدمات اللوجيستية</a>
+          <a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>التصميم الجرافيكي والدعاية والإعلان</a>
+        </div>
+      </li>
+      <li class="nav-item px-3 border-right">
+        <a class="nav-link disabled text-dark font-weight-bold" href="#">أعمالنا</a>
+      </li>
+      <li class="nav-item px-3 border-right">
+        <a class="nav-link disabled text-dark font-weight-bold" href="#">عملاؤنا</a>
+      </li>
+      <li class="nav-item px-3 border-right">
+        <a class="nav-link disabled text-dark font-weight-bold" href="#">المدونة</a>
+      </li>
+      <li class="nav-item px-3 border-right">
+        <a class="nav-link disabled text-dark font-weight-bold" href="#">اتصل بنا</a>
+      </li>
+
+    </ul>
+    <a href="#" class="text-dark mr-3 px-3 border-right search">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    </svg>
+  </a>
+  </div>
+</nav>
+  </header>
+
+
+<!-- section of video container-fluid -->
+<section class="autoplay muted">
+    <iframe class="el-image uk-cover" uk-cover="" src="https://www.youtube.com/embed/cODU_thFwaw?rel=0&amp;loop=1&amp;playlist=cODU_thFwaw&amp;autoplay=1&amp;controls=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;wmode=transparent&amp;playsinline=1&amp;rel=0;v=cODU_thFwaw&amp;disablekb=1&amp;enablejsapi=1" frameborder="0" allowfullscreen="" style="height: 550px; width: 100%;"></iframe>
+
+</section>
+
+<!-- section of works  box-shadow: 1px 0px 1px 0px grey;-->
+
+<section class="container-fluid s1 mt-3">
+  <div class="row bg-white text-right">
+  
+    <h2 class="text-light mx-4" style="background-color: #e5bf37; padding: 80px;">الخدمات</h2>
+  </div>
+  <div class="row text-center" style="background-color: #d3d3d3; margin-top: 20px; padding-right: 25px; padding-left: 25px;">
+    <div class="col-12 col-lg-3 col-md-6 text-center mx-auto v0" style="margin-top: -60px;">
+        <div class="pt-5 pb-5 bg-white sz" style="width: 100%; border-bottom:3px solid #e5bf37; height: 280px;">
+        <img id="hideimg" src="./img/Organizing-and-setting.svg" width="130px;" height="100px;">
+        <p  id="hideimg"class="mt-4">تنظيم المعارض والمؤتمرات</p>
+         <div class="el-content uk-panel px-4" style="text-align: center; font-size: 18px;">
+          نعمل علي مزيج من الفن والأفكار بأحدث التقنيات لتحظي بتصميم مميز يساعدك في تحقيق أهداف علامتك التجارية.
+        <a href="" class="text-center"><p><span>&#10132;</span>المزيد </p></a>
+         </div>
+      </div>
+    </div>
+     <div class="col-12 col-lg-3 col-md-6 w-100 text-center mx-md-0 mx-auto v0" style="margin-top: -60px">
+        <div class="pt-5 pb-5 bg-white" style="width: 100%; border-bottom:3px solid #e5bf37; height: 280px;">
+        <img id="hideimg" src="./img/interier-and-outerire-design.svg" width="130px;" height="100px;">
+        <p id="hideimg" class="mt-4">تصميم وتنفيذ الديكور</p>
+         <div class="el-content uk-panel px-4" style="text-align: center; font-size: 18px;">
+          نعمل علي مزيج من الفن والأفكار بأحدث التقنيات لتحظي بتصميم مميز يساعدك في تحقيق أهداف علامتك التجارية.
+        <a href="" class="text-center"><p><span>&#10132;</span>المزيد </p></a>
+         </div>
+      </div>
+    </div>
+     <div class="col-12 col-lg-3 col-md-6 w-100 text-center mx-md-0 mx-auto v0" style="margin-top: -60px">
+        <div class="pt-5 pb-5 bg-white" style="width: 100%; border-bottom:3px solid #e5bf37; height: 280px;">
+        <img id="hideimg" src="./img/Logistic-services.svg" width="130px;" height="100px;">
+        <p id="hideimg" class="mt-4">الخدمات اللوجيسيتة</p>
+        <div class="el-content uk-panel px-4" style="text-align: center; font-size: 18px;">
+          نعمل علي مزيج من الفن والأفكار بأحدث التقنيات لتحظي بتصميم مميز يساعدك في تحقيق أهداف علامتك التجارية.
+        <a href="" class="text-center"><p><span>&#10132;</span>المزيد </p></a>
+         </div>
+      </div>
+    </div>
+     <div class="col-12 col-lg-3 col-md-6 w-100 text-center mx-md-0 mx-auto v0" style="margin-top: -60px">
+        <div class="pt-5 pb-5 bg-white" style="width: 100%; border-bottom:3px solid #e5bf37; height: 280px;">
+        <img id="hideimg" src="./img/graphic-icon-2 (1).svg" width="130px;" height="100px;">
+        <p id="hideimg" class="mt-4">التصميم الجرافيكي والدعاية والإعلان</p>
+        <div class="el-content uk-panel px-4" style="text-align: center; font-size: 18px;">
+          نعمل علي مزيج من الفن والأفكار بأحدث التقنيات لتحظي بتصميم مميز يساعدك في تحقيق أهداف علامتك التجارية.
+        <a href="" class="text-center"><p><span>&#10132;</span>المزيد </p></a>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section of 2 cardds-->
+ <section class="container-fluid text-right" style="background-color: #d3d3d3; padding-bottom: 65px;padding-top: 40px; height: 500px;">
+    <div class="row">   
+    <h1 class="font-weight-bold mr-4 mb-4">الأحداث القادمة</h1>   
+      <div class="col-12 col-lg-12">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 450px;">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="row text-right">
+        <div class="col-12 col-md-6 col-lg-6">
+           <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left mt-2" src="./img/tifa-event-5.svg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left" src="./img/LHE-Logo-wpcf_97x90.jpg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div>
+      </div>
+
+     </div>
+      </div>
+
+      <!--- second sldier-->
+      <div class="carousel-item">
+        <div class="row text-right">
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left mt-2" src="./img/tifa-event-5.svg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div></div>
+
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left" src="./img/LHE-Logo-wpcf_97x90.jpg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div>
+      </div>
+
+     </div>
+
+
+
+    </div>
+
+
+
+<!-- third slider -->
+  <div class="carousel-item">
+          <div class="row text-right">
+        <div class="col-12 col-md-6 col-lg-6 ">
+          <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left mt-2" src="./img/tifa-event-5.svg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div>
+        </div>
+
+      <div class="col-12 col-md-6 col-lg-6">
+        <div class="card" style="width: 100%; border:2px solid #e5bf37;">
+          <div class="card-body bg-light">
+             <h5 class="text-right card-title">من 9 نوفمبر  /2021 </h5>
+             <h5 class="card-title">إلى 11 نوفمبر / 2021</h5>
+             <div class="text-left" style="float: left; margin-top: -70px;">
+             <img class="text-left" src="./img/LHE-Logo-wpcf_97x90.jpg"></div>
+             
+             <br>
+             <hr>
+             <h4>
+ معرض ليبيا السنوي التاسع للاتصالات وتقنية المعلومات</h4><br>
+             <p class="card-text">&#9990; أرض المعارض طرابلس ليبيا</p>
+             <h6 class="text-warning font-weight-bold">&#10002; الموقع الإلكتروني للحدث</h6>
+             
+           </div>
+          </div>
+      </div>
+
+     </div>
+
+
+
+    </div>
+   
+       </div>
+      <a class="carousel-control-prev text-warning" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next text-warning" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ <div class="row">
+      <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-warning"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-warning"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-warning"></li>
+  </ol>
+    </div>
+</div>
+
+</div>
+</section>
+
+
+<!-- section of catalog -->
+<section class="container-fluid text-white s3 pb-5" style="background-color: #3A3B3C;">
+    <div class="row pt-5">
+      
+      <div class="col-12 col-lg-3 col-md-6" >
+        <div class="pt-5 pb-5 text-right pr-4 " style="width: 100%;  height: 280px;">
+        <h1>معارضنا</h1>
+        <h2>المعارض التي نقوم بتنظيمها</h2>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+        <div id="cc" class="pt-5 pb-5 text-right px-4 mt-2 c" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/taqnya-event.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2 c" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/tifa-events-4.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2 c" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Alragia-Logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-4">
+
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/benghazi-oil-gas-exhibition-1.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Vector-Smart-Object-a9724330.png" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/liptc-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Medical-icon.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+
+
+<!-- section slider 
+<section class="container-fluid mt-5 mb-5">
+     <div class="row text-center">
+      <div class="col-12 col-lg-12">
+       <h2 class="text-center font-weight-bold">العملاء</h2>
+       <h4 class="text-center">أكثر من 15,000 ألف زبون يثق بنا</h4>
+     </div>
+     </div>
+  <div class="row mt-4">
+
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Geely-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Huawei-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Shell-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Odebrecht-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+  </div>
+
+  <div class="row mt-4">
+
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/LITC-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/NOC-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/Libyana-LOGO.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6">
+         <div class="pt-5 pb-5 text-right px-4 mt-2" style="width: 100%;  height: 280px; border : 1px solid #fff; ">
+            <img class="text-right" src="./img/bp-logo.svg" height="80px;">
+            <h3 class="mt-4">المعرض السنوي للاتصالات و تقنية المعلومات</h3>
+            <h6 class="text-left">&#10132;</h6>
+        </div>
+      </div>
+  </div>
+  <div class="row mt-4 text-center">
+  <div class="col-12 col-lg-12 col-md-12">
+  <button style="padding-top: 15px; padding-bottom: 15px; padding-right: 35px;padding-left: 35px; border:2px solid #e5bf37; background-color: #fff;">المزيد</button>
+  </div>
+   
+  </div>
+</section>-->
+<!------------------------------- -->
+<section class="container-fluid s5 mt-5 pb-5">
+  <div class="row text-center">
+      <div class="col-12 col-lg-12">
+       <h2 class="text-center font-weight-bold">العملاء</h2>
+       <h4 class="text-center">أكثر من 15,000 ألف زبون يثق بنا</h4>
+     </div>
+     </div>
+
+    <div class="row text-center">
+              <div class="col-1">
+                  
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right" src="./img/Jotun-logo.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right" src="./img/bp-logo.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right" src="./img/Libyana-LOGO.svg" width="100%;" height="300px;">
+              </div>
+             <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right" src="./img/NOC-logo.svg" width="100%;" height="300px;">
+              </div>
+             <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right" src="./img/LITC-logo.svg" width="100%;" height="300px;">
+              </div>
+               
+              <div class="col-1">
+                  
+              </div> 
+              <div class="col-1">
+                  
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right mt-3" src="./img/LITC-logo.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right mt-3" src="./img/NOC-logo.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right mt-3" src="./img/Libyana-LOGO.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right mt-3" src="./img/bp-logo.svg" width="100%;" height="300px;">
+              </div>
+              <div class="col-12 col-lg-2 col-md-12">
+                  <img class="text-right mt-3" src="./img/Jotun-logo.svg" width="100%;" height="300px;">
+              </div>
+
+          </div>
+
+    <div class="row mt-4 text-center">
+  <div class="col-12 col-lg-12 col-md-12 b1">
+    <button style="padding-top: 15px; padding-bottom: 15px; padding-right: 35px;padding-left: 35px; border:2px solid #e5bf37;">المزيد</button>
+  </div>
+</section>
+
+<section class="container-fluid mt-0 pt-4 s6 text-white" style="padding-right: 60px; background-color: #e5bf37;">
+   <div class="row d-inline">
+    <div class="text-right pt-2 pr-5">
+      <h1 class="font-weight-bold">رسائل شكر</h1>
+      <br>
+      <h5>رسائل شكر من عملاؤنا</h5>
+      </div>
+      <div class="text-center" style="margin-top: -20px;">
+        <img class="text-right" src="./img/NOC-logo.svg" style="filter:  brightness(0) invert(1);">
+        <h2>رسالة شكر من المؤسسة <br>الوطنية للنفط</h2>
+        <a href="" class="text-center"><p>الرسالة <span>&#10132;</span></p></a>
+      </div>
+   </div>
+</section>
+<section class="container-fluid mx-md-0" style="background-color: #2d2d2d;">
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+</section>
+
+<section class="container-fluid end pt-5 text-white" style="background-color: #2d2d2d;">
+    <div class="row">
+      <div class="col-12 col-lg-3 col-md-6 text-right pr-4 pt-4">
+         <div style="width:100%;">
+          <img src="./img/UFI-logo-inverse-1.svg">
+            <img src="./img/footer-logo.svg">
+         </div>
+         <div style="margin-top: 90px;">
+           <h5>شارع عمر المختار طرابلس
+          </h5>
+          <h6>
+صندوق بريد: 83433</h6>
+         </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 text-right pt-4 pr-4" >
+          <h3 class="font-weight-bold">روابط سريعة</h3>
+          <ul>
+            <li class="mt-4"><a href="">عن الواحة</a></li>
+            <li class="mt-4"><a href="">أعمالنا</a></li>
+            <li class="mt-4"><a href="">عملاؤنا</a></li>
+            <li class="mt-4"><a href="">المدونة</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 text-right pt-4 pr-4">
+          <h3 class="font-weight-bold">الخدمات</h3>
+          <ul>
+            <li class="mt-4"><a href="">المعارض والمؤتمرات</a></li>
+            <li class="mt-4"><a href="">تصميم وتنفيذ الديكورات</a></li>
+            <li class="mt-4"><a href="">الخدمات اللوجيستية</a></li>
+            <li class="mt-4"><a href="">التصميم الجرافيكي والدعاية والإعلان</a></li>
+          </ul>
+      </div>
+      <div class="col-12 col-lg-3 col-md-6 text-right pt-4 pr-4">
+          <form>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      
+      <input type="text"  id="inlineFormInput" placeholder="" style="background-color: #2d2d2d; border:none; border-bottom: 2px solid grey;">
+    </div>
+    
+    
+    <div class="col-auto b2">
+      <button type="submit" class="btn-white mb-2 font-weight-bold" style="border: 1px solid grey; padding: 10px 15px;">أرسل</button>
+    </div>
+  </div>
+</form>
+<div style="margin-top: 80px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+</svg>
+</div>
+      </div>
+    </div>
+
+</section>
+
+<!-- footer side-->
+<section class="container-fluid pt-5 pb-5 mx-auto px-5" style="background-color: #2d2d2d;">
+  <hr style="border:1px solid grey;">
+  <div class="row">
+    <div class="col-12 col-lg-6 col-md-6 mx-auto text-right text-white">
+      <h4>جميع الحقوق محفوظة، الواحة للمعارض © 2021</h4>
+    </div>
+    <div class="col-12 col-lg-6 col-md-6 text-left text-white">
+      <span style="font-size: 22px;">بدعم منه <img src="./img/LibyanSpider.svg" width="130px;"></span>
+    </div>
+  </div>
+</section>
+
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-12 col-md-12">
+      
+    </div>
+  </div>
+</section>
+
+
+  </body>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+</body>
+
+</html>

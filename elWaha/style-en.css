@@ -1,0 +1,336 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Cairo', sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #e5b037;
+    height: 4px!important;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    height: 4px!important;
+}
+::selection {
+    background: #e4ac2e;
+    color: #fff;
+    text-shadow: none;
+}
+nav{
+	position: fixed;
+}
+header li{
+	font-size: 18px;
+}
+header li:hover{
+	opacity: 30%;
+}
+.dropdown-toggl:hover .dropdown-menu{
+	display: block;
+}
+#serach-nav{
+	display: none;
+}
+.search:hover{
+	background-color: #e5bf37;
+}
+.s1 p{
+	font-size: 19px;
+	font-weight: 600; 
+}
+.s3 h6 {
+  transform: rotate(180deg);
+  }
+  .s3 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(80%);
+  
+}
+.s3  img:hover{
+	filter: none;	
+}
+.s5 {
+	background-image: url(./img/Wahaexpo-texture-4.svg);
+	background-size: cover;
+	background-position: 0% 100%;;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+.s5 img{
+	height: 200px;
+	width: 200px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.s5 img:hover{
+	filter: none;
+}
+.s6 span {
+  transform: rotate(180deg);
+  }
+  .s6 a{
+  	text-decoration: none;
+  	color: white;
+  	font-weight: 18px;
+  }
+  .s6 a:hover{
+  	color: grey;
+  }
+  .end ul li {
+  	list-style: none;
+  }
+  .end a{
+  	text-decoration: none;
+  	color: white;
+  }
+  .end a:hover{
+  	color: grey;
+  }
+  .end svg{
+  	margin-left: 10px;
+  }
+  .end svg:hover{
+  	opacity: 60%;
+  }
+
+
+/** for second page about waha **/
+.x1 {
+	height: 250px;
+
+    background-image:  url(./img/Wahaexpo-texture-4.svg);
+ 
+
+	background-size: cover;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	align-items: center;
+}
+.x1 a{
+     text-decoration: none;
+     color: black;     
+}
+.x1 a:hover{
+     text-decoration: none;
+     color: #e5bf37;     
+}
+.x3{
+	align-items: center;
+}
+
+.x3 p{
+	font-size: 16px;
+	line-height: 30px;
+	margin-right: 55px;
+	margin-left: 15px;
+}
+.x3 h1{
+	margin-right: 50px;
+	margin-top: 25%;
+}
+.x4 h4{
+	color: #e5bf37;
+}
+.e{
+	border:1px solid white;
+}
+.e:hover{
+	border: 2px solid #e5bf37;
+}
+.x4 p{
+	font-weight: bolder;
+}
+.x5{
+	background-color: #e5bf37;
+	color: white;
+	padding-top: 30px;
+}
+.x5 h1{
+	font-weight: bolder;
+	font-size: 60px;
+}
+.x5 h2{
+	font-size: 43px;
+	font-weight: bolder;
+}
+.x5 h3{
+	font-size: 35px;
+}
+.b2 .x6 button:hover{
+	background-color: #e5bf37;
+	color: #fff;
+}
+
+/** بخق فاهقي حشلث سثقرهؤثس**/
+
+.el-content{
+	display: none;
+}
+.v1:hover {
+	background-color: #e5bf37;
+}
+.v1 :hover .el-content{	
+	display:  block;
+	margin-top: 50px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bolder;
+}
+.v1 :hover .el-content p{
+	display:  block;
+	margin-top: 20px;
+}
+.v1 :hover #hideimg{
+	display:  none;
+}
+.v1 :hover .el-content a{	
+	display:  block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+}
+.v1 :hover .el-content span{	
+	transform: rotateX(180deg);
+}
+.page-btn{
+	margin: 14 auto 80px;
+margin-top: 20px;
+padding-right: 40%;
+float:center;
+}
+.page-btn span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+.page-btn span:hover{
+	background-color: #e5b037;
+	color: #fff;
+}
+.bbttnn {
+	background-color: white;
+}
+.bbttnn:hover{
+	background-color: #e5b037;
+	color: #fff;
+}
+
+.uk-divider-small::after {
+    border-top-color: white !important;
+    margin-top: -5px;
+}
+.uk-divider-small::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    max-width: 100%;
+    border-top: 5px solid #e5b037;
+    vertical-align: top;
+}
+
+/**.x4 img{
+   background-color: #e5b037;
+}**/
+uk-cover {
+    max-width: none;
+    =
+    
+}
+
+iframe {
+    border: 0;
+}
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+.b1 button{
+	 background-color: #fff;
+}
+.b1 button:hover{
+	background-color: #e5bf37;
+	color: #fff;
+}
+.b2 button:hover{
+	background-color: #e5bf37;
+	color: #fff;
+}
+
+.v2 {
+	height: 500px;
+	
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.8)),url('./img/Spider.jpg');
+	background-size: cover;
+	background-position: right;
+}
+.v2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.v2 p:hover{
+	color: #e5b037;
+}
+.v2:hover {
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.8)),url('./img/Spider.jpg');
+	filter: rgba(0,0,0,1);
+   background-size: cover;
+	background-position: left;
+}
+/** sdsddssd **/
+.b0 ul li{
+	display: inline-block;
+	color: black;
+	font-size: 14px;
+	color: black;
+}
+.b0 a{
+	color: black;
+}
+.b0 a:hover{
+	color: grey;
+}
+
+/** notes side **/
+.v3 button{
+	background-color: #fff;
+	transition: ease 0.5s;
+}
+.v3 button:hover{
+	background-color: #e5bf37;
+}
+.v3 a{
+    text-decoration: none;
+    color: black;
+}
+.v3 h4{
+	font-size: 20px;
+}
+
+/**
+.s-n:hover #serach-nav {
+	display: inline-block;
+	color: red;
+}
+**/
+
+
+
+
+
+
+
+
